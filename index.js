@@ -206,14 +206,14 @@ console.log('port in tlsPorts:', tlsPorts.has(port));
 console.log('nezhatls value:', JSON.stringify(nezhatls));
       const configYaml = `
 client_secret: ${NEZHA_KEY}
-debug: false
+debug: true
 disable_auto_update: true
 disable_command_execute: false
 disable_force_update: true
 disable_nat: false
 disable_send_query: false
 gpu: false
-insecure_tls: false
+insecure_tls: true
 ip_report_period: 1800
 report_delay: 1
 server: ${NEZHA_SERVER}
